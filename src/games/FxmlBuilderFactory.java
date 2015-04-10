@@ -14,6 +14,10 @@ public class FxmlBuilderFactory implements BuilderFactory {
 		private K key;
 		private V value;
 		
+		public void ikkeno(){
+			
+		}
+		
 		public K getKey() {
 			return key;
 		}

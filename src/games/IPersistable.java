@@ -12,7 +12,7 @@ public interface IPersistable {
 	 * with lines separated by newlines or vertical bars.
 	 * @throws IOException
 	 */
-	public void load(InputStream inputStream) throws IOException;
+	public void load(InputStream kjempeInputStream) throws IOException;
 
 	/**
 	 * Saves a game to the provided OutputStream, so it can be restored with load
